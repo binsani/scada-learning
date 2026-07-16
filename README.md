@@ -12,6 +12,30 @@ This repository documents my daily progress as I build practical knowledge throu
 
 Become a job-ready SCADA & Industrial Automation Engineer by documenting my learning every day.
 
+## 🗺️ Learning Roadmap
+
+### Month 1
+- ✅ SCADA Fundamentals
+- ⏳ PLC Basics
+- ⏳ RTU Fundamentals
+- ⏳ HMI Basics
+
+### Month 2
+- Industrial Networking
+- Modbus TCP/IP
+- OPC UA
+- Ethernet/IP
+
+### Month 3
+- Ignition SCADA
+- Siemens WinCC
+- FactoryTalk View
+
+### Month 4
+- ICS Cybersecurity
+- ISA/IEC 62443
+- NIST SP 800-82
+
 ---
 
 # 📅 Progress
@@ -55,5 +79,7 @@ Become a job-ready SCADA & Industrial Automation Engineer by documenting my lear
 - 🔄 Days Remaining: 364
 
 ---
+## 🎯 Why I'm Doing This
 
+I believe Industrial Automation and Operational Technology are among the most impactful areas of engineering. This repository documents my commitment to becoming a skilled SCADA Engineer through consistent daily learning and hands-on practice.
 *"Consistency beats intensity."*
