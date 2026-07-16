@@ -2,84 +2,129 @@
 
 Welcome to my public learning journey.
 
-I'm a Web Developer transitioning into **SCADA Systems**, **Industrial Automation**, and **Industrial Control Systems (ICS)**. This repository documents my journey as I develop the knowledge and practical skills required to become a SCADA Engineer.
-
-This repository documents my daily progress as I build practical knowledge through notes, diagrams, labs, and projects.
+I'm Web Developer  transitioning into **SCADA Systems**, **Industrial Automation**, and **Industrial Control Systems (ICS)**. This repository documents my journey as I develop the knowledge and practical skills required to become a SCADA Engineer through structured learning, hands-on labs, and real-world projects.
 
 ---
 
 # 🎯 Goal
 
-Become a job-ready SCADA and Industrial Automation Engineer through consistent daily learning, hands-on labs, and practical projects.
-## 🗺️ Learning Roadmap
+Become a job-ready **SCADA and Industrial Automation Engineer** through consistent daily learning, hands-on labs, practical projects, and continuous improvement.
 
-### Month 1
+---
+
+# 🗺️ Learning Roadmap
+
+## 📅 Month 1 – SCADA Fundamentals
+
 - ✅ SCADA Fundamentals
 - ⏳ PLC Basics
 - ⏳ RTU Fundamentals
 - ⏳ HMI Basics
+- ⏳ SCADA Architecture
 
-### Month 2
+## 📅 Month 2 – Industrial Communication
 
 - ⏳ Industrial Networking
 - ⏳ Modbus TCP/IP
 - ⏳ OPC UA
 - ⏳ EtherNet/IP
 
-### Month 3
-- Ignition SCADA
-- Siemens WinCC
-- FactoryTalk View
+## 📅 Month 3 – SCADA Software
 
-### Month 4
-- ICS Cybersecurity
-- ISA/IEC 62443
-- NIST SP 800-82
+- ⏳ Ignition SCADA
+- ⏳ Siemens WinCC
+- ⏳ FactoryTalk View
+- ⏳ Wonderware InTouch
+
+## 📅 Month 4 – Industrial Cybersecurity
+
+- ⏳ ICS Cybersecurity Fundamentals
+- ⏳ ISA/IEC 62443
+- ⏳ NIST SP 800-82
+- ⏳ Network Segmentation
 
 ---
 
-# 📅 Progress
+# 📅 Learning Progress
 
-| Day | Topic | Status |
-|------|-------|--------|
-| [Day 1](Day-01/) | What is SCADA? | ✅ Completed |
-| Day 2 | PLC Fundamentals | ⏳ Coming Soon |
-| Day 3 | RTU vs PLC | ⏳ Coming Soon |
+| Day | Topic | Repository | Status |
+|------|-------|------------|--------|
+| [Day 1](Day-01/) | What is SCADA? | ✅ Available | ✅ Completed |
+| Day 2 | PLC Fundamentals | Coming Soon | ⏳ |
+| Day 3 | RTU vs PLC | Coming Soon | ⏳ |
+| Day 4 | HMI Basics | Coming Soon | ⏳ |
+| Day 5 | SCADA Architecture | Coming Soon | ⏳ |
 
-# 📚 Topics Covered
+---
+
+# 📚 Learning Topics
+
+Throughout this journey, I'll be exploring:
 
 - SCADA Fundamentals
 - PLC Programming
+- RTU Systems
 - HMI Development
 - Industrial Networking
+- Industrial Ethernet
 - Modbus TCP/IP
 - OPC UA
-- Industrial Ethernet
+- EtherNet/IP
+- SCADA Architecture
+- Alarm Management
+- Historian Systems
 - Industrial Cybersecurity
 - ISA/IEC 62443
 - NIST SP 800-82
+- Operational Technology (OT)
 
 ---
 
-# 🛠️ Future Labs
+# 🛠️ Hands-on Labs
 
-- PLC Programming
-- Ignition SCADA
-- Siemens WinCC
-- FactoryTalk
-- Modbus Simulation
-- OPC UA Lab
+This repository will also include practical exercises and projects such as:
+
+- PLC Programming Exercises
+- Ignition SCADA Projects
+- Siemens WinCC Projects
+- FactoryTalk View Labs
+- Modbus TCP Communication Lab
+- OPC UA Configuration Lab
 - Industrial Network Design
+- HMI Development
+- Alarm Configuration
+- SCADA Mini Projects
 
 ---
 
-## 📈 Progress
+# 📈 Journey Progress
 
-- ✅ Day 1 Completed
-- 🔄 Days Remaining: 364
+- ✅ Days Completed: **1 / 365**
+- 📅 Days Remaining: **364**
+- 🎯 Current Focus: **SCADA Fundamentals**
 
 ---
-## 🎯 Why I'm Doing This
 
-I believe Industrial Automation and Operational Technology are among the most impactful areas of engineering. This repository documents my commitment to becoming a skilled SCADA Engineer through consistent daily learning and hands-on practice.
-*"Consistency beats intensity."*
+# 🎯 Why I'm Doing This
+
+Industrial Automation powers many of the systems that modern society depends on—from energy and manufacturing to water treatment, transportation, and critical infrastructure.
+
+I'm documenting this journey to build practical SCADA and Industrial Automation skills while sharing my progress openly with the engineering community. My goal is to demonstrate continuous learning, hands-on experience, and a commitment to becoming a highly skilled SCADA Engineer.
+
+---
+
+# 🤝 Connect With Me
+
+- **GitHub:** https://github.com/binsani
+- **X (Twitter):** *(Add your X profile link)*
+- **LinkedIn:** *(Add your LinkedIn profile link)*
+
+---
+
+## ⭐ Follow My Journey
+
+If you're also learning **SCADA**, **Industrial Automation**, or **ICS Cybersecurity**, feel free to follow this repository and connect with me as we learn together.
+
+---
+
+> **"Consistency beats intensity. Small progress every day leads to extraordinary results."**
