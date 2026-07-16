@@ -18,13 +18,9 @@ Become a job-ready SCADA & Industrial Automation Engineer by documenting my lear
 
 | Day | Topic | Status |
 |------|-------|--------|
-| Day 1 | What is SCADA? | ✅ Completed |
+| [Day 1](Day-01/) | What is SCADA? | ✅ Completed |
 | Day 2 | PLC Fundamentals | ⏳ Coming Soon |
 | Day 3 | RTU vs PLC | ⏳ Coming Soon |
-| Day 4 | HMI Basics | ⏳ Coming Soon |
-| Day 5 | SCADA Architecture | ⏳ Coming Soon |
-
----
 
 # 📚 Topics Covered
 
