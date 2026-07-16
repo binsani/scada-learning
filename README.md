@@ -1,23 +1,63 @@
-# SCADA Learning Journey
+# 🚀 365 Days to SCADA Engineer
 
-Welcome to my SCADA learning repository.
+Welcome to my public learning journey.
 
-This repository documents my journey from Software Engineering to SCADA Systems, Industrial Automation, and ICS Cybersecurity.
+I'm transitioning from Software Engineering into **SCADA Systems**, **Industrial Automation**, and **Industrial Control Systems (ICS)**.
 
-## Goals
+This repository documents my daily progress as I build practical knowledge through notes, diagrams, labs, and projects.
 
-- Learn SCADA Fundamentals
-- Learn PLC Programming
-- Learn HMI Development
-- Learn Industrial Networking
-- Learn Modbus TCP/IP
-- Learn OPC UA
-- Learn ICS Cybersecurity
+---
 
-## Progress
+# 🎯 Goal
 
-- [ ] Day 1
-- [ ] Day 2
-- [ ] Day 3
+Become a job-ready SCADA & Industrial Automation Engineer by documenting my learning every day.
 
-Stay tuned as I document my learning every day.
+---
+
+# 📅 Progress
+
+| Day | Topic | Status |
+|------|-------|--------|
+| Day 1 | What is SCADA? | ✅ Completed |
+| Day 2 | PLC Fundamentals | ⏳ Coming Soon |
+| Day 3 | RTU vs PLC | ⏳ Coming Soon |
+| Day 4 | HMI Basics | ⏳ Coming Soon |
+| Day 5 | SCADA Architecture | ⏳ Coming Soon |
+
+---
+
+# 📚 Topics Covered
+
+- SCADA Fundamentals
+- PLC Programming
+- HMI Development
+- Industrial Networking
+- Modbus TCP/IP
+- OPC UA
+- Industrial Ethernet
+- Industrial Cybersecurity
+- ISA/IEC 62443
+- NIST SP 800-82
+
+---
+
+# 🛠️ Future Labs
+
+- PLC Programming
+- Ignition SCADA
+- Siemens WinCC
+- FactoryTalk
+- Modbus Simulation
+- OPC UA Lab
+- Industrial Network Design
+
+---
+
+## 📈 Progress
+
+- ✅ Day 1 Completed
+- 🔄 Days Remaining: 364
+
+---
+
+*"Consistency beats intensity."*
