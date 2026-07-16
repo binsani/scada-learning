@@ -2,7 +2,7 @@
 
 Welcome to my public learning journey.
 
-I'm transitioning from Software Engineering into **SCADA Systems**, **Industrial Automation**, and **Industrial Control Systems (ICS)**.
+I'm a Web Developer transitioning into **SCADA Systems**, **Industrial Automation**, and **Industrial Control Systems (ICS)**. This repository documents my journey as I develop the knowledge and practical skills required to become a SCADA Engineer.
 
 This repository documents my daily progress as I build practical knowledge through notes, diagrams, labs, and projects.
 
@@ -10,8 +10,7 @@ This repository documents my daily progress as I build practical knowledge throu
 
 # 🎯 Goal
 
-Become a job-ready SCADA & Industrial Automation Engineer by documenting my learning every day.
-
+Become a job-ready SCADA and Industrial Automation Engineer through consistent daily learning, hands-on labs, and practical projects.
 ## 🗺️ Learning Roadmap
 
 ### Month 1
@@ -21,10 +20,11 @@ Become a job-ready SCADA & Industrial Automation Engineer by documenting my lear
 - ⏳ HMI Basics
 
 ### Month 2
-- Industrial Networking
-- Modbus TCP/IP
-- OPC UA
-- Ethernet/IP
+
+- ⏳ Industrial Networking
+- ⏳ Modbus TCP/IP
+- ⏳ OPC UA
+- ⏳ EtherNet/IP
 
 ### Month 3
 - Ignition SCADA
