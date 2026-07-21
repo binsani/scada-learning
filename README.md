@@ -49,11 +49,12 @@ Become a job-ready **SCADA and Industrial Automation Engineer** through consiste
 
 | Day | Topic | Repository | Status |
 |------|-------|------------|--------|
-| [Day 1](Day-01/) | What is SCADA? | ✅ Available | ✅ Completed |
+| Day 1 | What is SCADA? | ✅ Available | ✅ Completed |
 | Day 2 | PLC Fundamentals | ✅ Available | ✅ Completed |
 | Day 3 | RTU vs PLC |  ✅ Available | ✅ Completed |
 | Day 4 | HMI Basics| ✅ Available | ✅ Completed |
-| Day 5 | SCADA Architecture | Coming Soon | ⏳ |
+| Day 5 | SCADA Architecture |✅ Available | ✅ Completed |
+| Day 6 | Industrial Communication Protocols | ✅ Completed |
 
 ---
 
