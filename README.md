@@ -55,6 +55,7 @@ Become a job-ready **SCADA and Industrial Automation Engineer** through consiste
 | Day 4 | HMI Basics| ✅ Available | ✅ Completed |
 | Day 5 | SCADA Architecture |✅ Available | ✅ Completed |
 | Day 6 | Industrial Communication Protocols | ✅ Completed |
+| Day 7 |  Introduction to Modbus | ✅ Completed |
 
 ---
 
