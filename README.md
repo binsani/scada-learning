@@ -3,9 +3,10 @@
 > **A public journey from Software Developer to SCADA & Industrial Automation Engineer.**
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/binsani/scada-learning)
-![Days Completed](https://img.shields.io/badge/Progress-9%2F365-blue)
-![Status](https://img.shields.io/badge/Status-Learning-success)
-![Focus](https://img.shields.io/badge/Focus-SCADA%20Fundamentals-orange)
+![Progress](https://img.shields.io/badge/Progress-20%2F365-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Focus](https://img.shields.io/badge/Current%20Focus-PLC%20Programming-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
@@ -13,58 +14,88 @@
 
 Hi, I'm **Salim**.
 
-I'm a Software Developer transitioning into **SCADA Systems**, **Industrial Automation**, and **Industrial Control Systems (ICS)**.
+I'm a Software Developer transitioning into **SCADA Systems**, **Industrial Automation**, **Operational Technology (OT)**, and **Industrial Control Systems (ICS)**.
 
-Instead of learning privately, I'm documenting every lesson, every lab, every project, and every mistake publicly.
+Rather than learning privately, I'm documenting every lesson, lab, diagram, project, and milestone publicly on GitHub.
 
-By the end of this journey I aim to become a job-ready **SCADA & Industrial Automation Engineer** with a strong portfolio of practical projects and open-source contributions.
+My goal is to become a job-ready **SCADA & Industrial Automation Engineer** while building an open portfolio that demonstrates practical knowledge and continuous growth.
 
 ---
 
 # 🎯 Objectives
 
-Throughout these 365 days I will:
+Throughout this 365-day journey, I will:
 
-- Learn SCADA from the ground up
-- Build practical industrial automation projects
-- Learn PLC programming concepts
+- Learn SCADA engineering from the ground up
+- Master PLC programming
+- Learn Industrial Networking
+- Study Industrial Cybersecurity
 - Build industrial simulators
-- Learn industrial communication protocols
-- Study industrial cybersecurity
-- Contribute useful open-source SCADA tools
-- Share my learning publicly
+- Create SCADA dashboards
+- Contribute open-source tools to the SCADA community
+- Share my progress publicly every day
 
 ---
 
-# 🗺 Learning Roadmap
+# 🗺️ Learning Roadmap
 
 ## ✅ Phase 1 — SCADA Fundamentals
 
-- Introduction to SCADA
+- SCADA Basics
 - PLC Fundamentals
 - RTU Fundamentals
-- HMI
-- Sensors
-- Actuators
+- HMI Basics
 - PLC Scan Cycle
+- Sensors & Actuators
 - SCADA Architecture
 - Industrial Communication
-- Modbus Basics
+- Modbus RTU
+- Modbus TCP
+- OPC UA
 
 ---
 
-## ⏳ Phase 2 — Industrial Networking
+## 🔄 Phase 2 — Industrial Networking
 
-- Modbus TCP/IP
-- OPC UA
-- Ethernet/IP
+- Industrial Ethernet
+- Managed & Unmanaged Switches
+- Network Redundancy
+- Ring Topology
 - PROFINET
+- Ethernet/IP
 - DNP3
 - MQTT
 
 ---
 
-## ⏳ Phase 3 — SCADA Software
+## 🔄 Phase 3 — Industrial Cybersecurity
+
+- Introduction to ICS Security
+- Defense in Depth
+- Purdue Model
+- Alarm Management
+- Historian
+- Dashboards
+- High Performance HMI
+- ISA-101
+- ISA/IEC 62443
+- NIST SP 800-82
+
+---
+
+## ⏳ Phase 4 — PLC Programming
+
+- Ladder Logic
+- Timers
+- Counters
+- Comparators
+- Math Instructions
+- Function Blocks
+- Structured Text
+
+---
+
+## ⏳ Phase 5 — SCADA Software
 
 - Ignition SCADA
 - Siemens WinCC
@@ -74,30 +105,30 @@ Throughout these 365 days I will:
 
 ---
 
-## ⏳ Phase 4 — Industrial Cybersecurity
-
-- Purdue Model
-- ISA/IEC 62443
-- NIST SP 800-82
-- Secure Remote Access
-- Network Segmentation
-- Defence in Depth
-
----
-
 # 📚 Learning Progress
 
-| Day | Topic | Folder | Status |
-|------|-------|--------|--------|
-| 1 | Introduction to SCADA | Day-01 | ✅ |
-| 2 | PLC Fundamentals | Day-02 | ✅ |
-| 3 | RTU vs PLC | Day-03 | ✅ |
-| 4 | PLC Scan Cycle | Day-04 | ✅ |
-| 5 | Sensors & Actuators | Day-05 | ✅ |
-| 6 | SCADA Architecture | Day-06 | ✅ |
-| 7 | Industrial Communication & Modbus | Day-07 | ✅ |
-| 8 | Water Tank Control System | Day-08 | ✅ |
-| 9 | Complete SCADA Data Flow | Day-09 | ✅ |
+| Day | Topic | Status |
+|------|-------|--------|
+| 01 | Introduction to SCADA | ✅ |
+| 02 | PLC Fundamentals | ✅ |
+| 03 | RTU vs PLC | ✅ |
+| 04 | PLC Scan Cycle | ✅ |
+| 05 | Sensors & Actuators | ✅ |
+| 06 | SCADA Architecture | ✅ |
+| 07 | Industrial Communication | ✅ |
+| 08 | Water Tank Control System | ✅ |
+| 09 | Complete SCADA Data Flow | ✅ |
+| 10 | Industrial Ethernet | ✅ |
+| 11 | Modbus TCP vs Modbus RTU | ✅ |
+| 12 | Managed vs Unmanaged Switches | ✅ |
+| 13 | Network Redundancy | ✅ |
+| 14 | Introduction to Industrial Cybersecurity | ✅ |
+| 15 | Defense in Depth | ✅ |
+| 16 | Purdue Enterprise Reference Architecture | ✅ |
+| 17 | SCADA Alarms & Event Management | ✅ |
+| 18 | SCADA Historian & Data Logging | ✅ |
+| 19 | SCADA Trends, Dashboards & Reporting | ✅ |
+| 20 | High Performance HMI Design | ✅ |
 
 ---
 
@@ -106,352 +137,190 @@ Throughout these 365 days I will:
 ```
 scada-learning/
 
-│
 ├── README.md
 │
 ├── Day-01
-│   ├── lesson.md
-│   ├── quiz.md
-│   ├── notes.md
-│   └── images
-│
 ├── Day-02
-├── Day-03
-├── Day-04
-├── Day-05
-├── Day-06
-├── Day-07
-├── Day-08
-├── Day-09
+├── ...
+├── Day-20
 │
-├── Labs
-│   ├── Water Tank Simulator
-│   ├── PLC Exercises
-│   ├── Modbus Labs
-│   └── Networking
-│
-├── Projects
-│   ├── Tank Level Simulator
-│   ├── Modbus Simulator
-│   ├── SCADA Dashboard
-│   ├── Alarm Manager
-│   └── Historian Viewer
-│
-├── Architecture
-│   ├── PLC
-│   ├── SCADA
-│   ├── Networking
-│   └── Purdue Model
-│
-├── CheatSheets
-│
-├── Resources
-│
-├── Diagrams
-│
-└── Images
+├── Architecture/
+├── Diagrams/
+├── Images/
+├── Labs/
+├── Projects/
+├── CheatSheets/
+├── Resources/
+└── Case-Studies/
 ```
-
----
-
-# 📖 Lessons Covered
-
-## ✅ Day 1
-
-Introduction to SCADA
-
-Topics
-
-- What SCADA is
-- Real-world applications
-- Benefits
-- Components overview
-
----
-
-## ✅ Day 2
-
-PLC Fundamentals
-
-Topics
-
-- PLC definition
-- CPU
-- Inputs
-- Outputs
-- Power Supply
-- Memory
-
----
-
-## ✅ Day 3
-
-RTU vs PLC
-
-Topics
-
-- RTU
-- PLC
-- Similarities
-- Differences
-- Where each is used
-
----
-
-## ✅ Day 4
-
-PLC Scan Cycle
-
-Topics
-
-- Read Inputs
-- Execute Logic
-- Update Outputs
-- Diagnostics
-
----
-
-## ✅ Day 5
-
-Sensors & Actuators
-
-Topics
-
-Sensors
-
-- Level Sensor
-- Temperature Sensor
-- Pressure Sensor
-- Flow Sensor
-
-Actuators
-
-- Pumps
-- Valves
-- Motors
-
----
-
-## ✅ Day 6
-
-SCADA Architecture
-
-Topics
-
-- Field Devices
-- PLC
-- RTU
-- Communication Network
-- SCADA Server
-- Historian
-- HMI
-- Operator
-
----
-
-## ✅ Day 7
-
-Industrial Communication
-
-Topics
-
-- Serial Communication
-- Ethernet
-- Modbus
-- Master/Slave
-- Registers
-- Coils
-
----
-
-## ✅ Day 8
-
-Water Tank Automation
-
-Built understanding of:
-
-Water Tank
-
-↓
-
-Level Sensor
-
-↓
-
-PLC
-
-↓
-
-Pump
-
-↓
-
-SCADA
-
-↓
-
-Operator
-
----
-
-## ✅ Day 9
-
-Complete Industrial Control Process
-
-Learned how information flows from:
-
-Process
-
-↓
-
-Sensor
-
-↓
-
-PLC
-
-↓
-
-Communication Network
-
-↓
-
-SCADA
-
-↓
-
-Historian
-
-↓
-
-Operator
 
 ---
 
 # 🧪 Hands-on Labs
 
-## Completed
+### Completed
 
 - SCADA Architecture Analysis
 - PLC Scan Cycle Exercise
-- Water Tank Control Analysis
+- Water Tank Process Analysis
+- Industrial Communication Mapping
+- Network Topology Exercises
+- Purdue Model Analysis
+- Alarm Design Exercise
+- Historian Data Flow Analysis
+- Dashboard Design Exercise
 
-## Planned
+### Upcoming
 
-- Ignition Installation
-- Modbus TCP Lab
+- Ignition SCADA Installation
+- PLC Programming Labs
 - OPC UA Lab
-- PLC Logic Exercises
+- Modbus TCP Lab
 - Alarm Configuration
 - Historian Configuration
+- High Performance HMI Design
+- Industrial Network Design
 
 ---
 
 # 🚀 Open Source Projects
 
-Projects I intend to build during this journey.
+The following projects will be developed during this journey.
 
 | Project | Status |
 |----------|--------|
-| Tank Level Simulator | ⏳ |
-| Modbus Simulator | ⏳ |
-| PLC Simulator | ⏳ |
-| SCADA Dashboard | ⏳ |
-| Alarm Management System | ⏳ |
-| Historian Viewer | ⏳ |
-| Industrial Network Visualizer | ⏳ |
-| PLC Scan Cycle Visualizer | ⏳ |
+| Tank Level Simulator | 🚧 Planned |
+| PLC Simulator | 🚧 Planned |
+| Modbus Simulator | 🚧 Planned |
+| SCADA Dashboard | 🚧 Planned |
+| Alarm Management System | 🚧 Planned |
+| Historian Viewer | 🚧 Planned |
+| Industrial Network Visualizer | 🚧 Planned |
+| PLC Scan Cycle Visualizer | 🚧 Planned |
+| OPC UA Explorer | 🚧 Planned |
 
 ---
 
-# 🛠 Technologies
+# 🛠️ Technologies
 
-Industrial
+### Industrial
 
-- PLC
 - SCADA
-- HMI
+- PLC
 - RTU
-- Modbus
+- HMI
+- Industrial Ethernet
+- Modbus RTU
+- Modbus TCP
 - OPC UA
 - MQTT
-- Ethernet/IP
+- PROFINET
 
-Software
+### Software
 
 - Laravel
 - PHP
 - JavaScript
 - HTML
 - CSS
-- Docker
 - Git
 - GitHub
+- Docker
 
-Cybersecurity
+### Cybersecurity
 
 - ISA/IEC 62443
+- ISA-101
 - NIST SP 800-82
 - Purdue Model
 
 ---
 
-# 📊 Progress Dashboard
+# 📈 Current Progress
 
 ```
-█████████□□□□□□□□□□□□□□□□□□□□□□□□□□□□
+████████████████████□□□□□□□□□□□□□□□□□□□□□□□□
 
-Day 9 / 365
+Day 20 / 365
 ```
 
-**Completed:** 9 Days
+**Completed:** 20 Days
 
-**Remaining:** 356 Days
+**Remaining:** 345 Days
 
-Current Focus
+### Current Focus
 
-> Industrial Communication & Modbus
+> Beginning PLC Programming and Ladder Logic
+
+---
+
+# 📖 What You'll Find Here
+
+This repository includes:
+
+- Daily learning notes
+- Practical exercises
+- Industrial diagrams
+- Architecture documentation
+- Hands-on labs
+- Open-source SCADA projects
+- Case studies
+- Reference materials
+- Engineering best practices
 
 ---
 
 # 🎯 Why This Repository Exists
 
-Industrial automation powers the infrastructure we rely on every day, including manufacturing, oil & gas, water treatment, transportation, and energy.
+Industrial Automation powers critical infrastructure around the world.
 
-This repository documents my transition from software development into industrial automation through consistent study, practical labs, engineering projects, and open-source contributions.
+This repository documents my transition from Software Development into SCADA Engineering through consistent learning, practical exercises, and engineering projects.
 
-My goal is to demonstrate not only theoretical knowledge but also the ability to design, simulate, and build practical SCADA systems.
+My objective isn't simply to complete 365 days—it's to build a portfolio that demonstrates real-world knowledge and practical skills in SCADA, Industrial Automation, Operational Technology, and ICS Cybersecurity.
 
 ---
 
-# 🤝 Let's Connect
+# 📅 Current Statistics
 
-GitHub
+- 📘 Lessons Completed: **20**
+- 🧪 Labs Completed: **9**
+- 📊 Architecture Topics Covered: **8**
+- 🔐 Cybersecurity Topics Covered: **7**
+- 🏗️ Open Source Projects Planned: **9**
+- 🎯 Goal Completion: **5.5%**
+
+---
+
+# 🤝 Connect With Me
+
+### GitHub
 
 https://github.com/binsani
 
-LinkedIn
+### LinkedIn
 
-(Add your LinkedIn URL)
+(Add your LinkedIn Profile)
 
-X (Twitter)
+### X (Twitter)
 
-([Add your X URL](http://x.com/salimbinsani))
+https://x.com/salimbinsani
 
 ---
 
 # ⭐ Support
 
-If you're also learning SCADA, PLCs, Industrial Automation, or ICS Cybersecurity:
+If you're learning:
 
-⭐ Star this repository
+- SCADA
+- PLC Programming
+- Industrial Automation
+- Operational Technology (OT)
+- ICS Cybersecurity
 
-🍴 Fork it
+consider giving this repository a ⭐ and following the journey.
 
-👨‍💻 Follow my journey
-
-Let's grow together.
+Contributions, suggestions, and discussions are always welcome.
 
 ---
 
-> **"Engineering excellence isn't built in a day—it is built every day."**
+> **"Engineering excellence isn't achieved overnight—it is built through consistent learning, hands-on practice, and continuous improvement."**
