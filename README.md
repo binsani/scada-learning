@@ -3,10 +3,9 @@
 > **A public journey from Software Developer to SCADA & Industrial Automation Engineer.**
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/binsani/scada-learning)
-![Progress](https://img.shields.io/badge/Progress-23%2F365-blue)
+![Progress](https://img.shields.io/badge/Progress-26%2F365-blue)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![Current Focus](https://img.shields.io/badge/Current%20Focus-PLC%20Programming%20%26%20Ladder%20Logic-orange)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Current Focus](https://img.shields.io/badge/Current%20Focus-PLC%20Analog%20Signals-orange)
 
 ---
 
@@ -28,11 +27,13 @@ Throughout this 365-day journey, I will:
 
 - Learn SCADA engineering from the ground up
 - Master PLC programming
+- Understand industrial instrumentation
 - Study industrial communication protocols
 - Learn industrial networking
-- Understand Industrial Cybersecurity (ICS Security)
+- Understand Industrial Cybersecurity
 - Build industrial simulators
 - Develop SCADA dashboards and HMIs
+- Work with real-world industrial control concepts
 - Create useful open-source tools for the SCADA community
 - Share my progress publicly every day
 
@@ -59,19 +60,23 @@ Throughout this 365-day journey, I will:
 
 ## ✅ Phase 2 — Industrial Networking
 
+### Completed
+
 - Industrial Ethernet
 - Managed vs Unmanaged Switches
 - Network Redundancy
 - Ring Topology
 - Network Design
 - Communication Reliability
+- Modbus TCP vs Modbus RTU
 
-**Coming Soon**
+### Coming Soon
 
 - PROFINET
 - Ethernet/IP
 - DNP3
 - MQTT
+- Industrial Network Segmentation
 
 ---
 
@@ -82,17 +87,20 @@ Throughout this 365-day journey, I will:
 - Introduction to ICS Security
 - Defense in Depth
 - Purdue Enterprise Reference Architecture
-- Alarm Management
+- SCADA Alarm Management
 - Historian & Data Logging
-- Dashboards & Reporting
-- High Performance HMI (ISA-101)
+- SCADA Dashboards & Reporting
+- High Performance HMI
+- ISA-101 Concepts
 
 ### Coming Soon
 
 - ISA/IEC 62443
 - NIST SP 800-82
 - Secure Remote Access
-- Zero Trust for OT
+- OT Network Security
+- Industrial Security Zones & Conduits
+- Security Monitoring
 
 ---
 
@@ -100,19 +108,38 @@ Throughout this 365-day journey, I will:
 
 ### Completed
 
+- PLC Programming Fundamentals
 - Ladder Logic Fundamentals
 - Contacts & Coils
-- Basic Logic Operations (AND, OR, NOT)
-- Latching (Seal-In Circuits)
+- AND / OR / NOT Logic
+- Latching / Seal-In Circuits
+- TON Timers
+- TOF Timers
+- Retentive Timers
+- CTU Counters
+- CTD Counters
+- Counter Reset
+- PLC Comparators
+- Conditional Logic
+- Hysteresis Concepts
 
-### Coming Next
+### Current Focus
 
-- Timers (TON, TOF, RTO)
-- Counters
-- Comparators
+- Analog Signals
+- 4–20 mA
+- 0–10 V
+- Analog Input Modules
+- Signal Scaling
+- Engineering Units
+
+### Coming Soon
+
 - Math Instructions
 - Function Blocks
 - Structured Text
+- PID Control
+- PLC State Machines
+- Advanced Sequencing
 
 ---
 
@@ -150,9 +177,12 @@ Throughout this 365-day journey, I will:
 | 18 | SCADA Historian & Data Logging | ✅ |
 | 19 | SCADA Trends, Dashboards & Reporting | ✅ |
 | 20 | High Performance HMI Design | ✅ |
-| 21 | Introduction to PLC Programming (Ladder Logic) | ✅ |
+| 21 | Introduction to PLC Programming | ✅ |
 | 22 | PLC Contacts, Coils & Logic Operations | ✅ |
-| 23 | PLC Latching (Seal-In Circuits) | ✅ |
+| 23 | PLC Latching / Seal-In Circuits | ✅ |
+| 24 | PLC Timers — TON, TOF & RTO | ✅ |
+| 25 | PLC Counters — CTU, CTD & Reset | ✅ |
+| 26 | PLC Comparators & Conditional Logic | ✅ |
 
 ---
 
@@ -163,10 +193,11 @@ scada-learning/
 
 ├── README.md
 │
-├── Day-01
-├── Day-02
+├── Day-01/
+├── Day-02/
+├── Day-03/
 ├── ...
-├── Day-23
+├── Day-26/
 │
 ├── Architecture/
 ├── Assets/
@@ -209,13 +240,20 @@ scada-learning/
 - Ladder Logic Basics
 - PLC Logic Operations
 - PLC Seal-In Circuit Exercise
+- PLC Timer Exercise
+- PLC Counter Exercise
+- PLC Comparator Exercise
+- Tank Level Control Logic Exercise
 
 ---
 
-## Planned
+## 🔬 Upcoming Labs
 
+- Analog Signal Simulation
+- 4–20 mA Signal Scaling
+- 0–10 V Signal Scaling
+- PLC Analog Input Exercise
 - Ignition SCADA Installation
-- PLC Programming Labs
 - OPC UA Lab
 - Modbus TCP Lab
 - PLC Timer Exercises
@@ -223,12 +261,13 @@ scada-learning/
 - Alarm Configuration
 - Historian Configuration
 - SCADA Dashboard Development
+- PID Control Lab
 
 ---
 
 # 🚀 Open Source Projects
 
-Projects I plan to build during this journey.
+The following projects are planned as part of this learning journey.
 
 | Project | Status |
 |---------|--------|
@@ -252,12 +291,26 @@ Projects I plan to build during this journey.
 - PLC
 - RTU
 - HMI
+- Sensors
+- Actuators
 - Industrial Ethernet
 - Modbus RTU
 - Modbus TCP
 - OPC UA
 - MQTT
 - PROFINET
+
+## PLC & Automation
+
+- Ladder Logic
+- Timers
+- Counters
+- Comparators
+- Analog Signals
+- 4–20 mA
+- 0–10 V
+- Signal Scaling
+- PID Control
 
 ## Software
 
@@ -272,28 +325,33 @@ Projects I plan to build during this journey.
 
 ## Cybersecurity
 
+- OT Security
+- ICS Security
+- Purdue Model
 - ISA-101
 - ISA/IEC 62443
 - NIST SP 800-82
-- Purdue Model
+- Defense in Depth
 
 ---
 
 # 📈 Progress Dashboard
 
 ```text
-███████████████████████□□□□□□□□□□□□□□□□□□□□□□□
+██████████████████████████□□□□□□□□□□□□□□□□□□□□
 
-Day 23 / 365
+Day 26 / 365
 ```
 
-**Completed:** 23 Days
+**Completed:** 26 Days
 
-**Remaining:** 342 Days
+**Remaining:** 339 Days
+
+**Overall Progress:** 7.1%
 
 ### Current Focus
 
-> PLC Programming, Ladder Logic, and Industrial Control Logic
+> **PLC Analog Signals, 4–20 mA, 0–10 V & Signal Scaling**
 
 ---
 
@@ -308,14 +366,20 @@ Day 23 / 365
         ↓
 🔄 PLC Programming
         ↓
+⏳ Industrial Instrumentation
+        ↓
 ⏳ SCADA Software
         ↓
 ⏳ Industrial Projects
 ```
 
-**Current Topic:** PLC Latching (Seal-In Circuits)
+### Current Stage
 
-**Next Topic:** PLC Timers (TON, TOF, and RTO)
+**PLC Programming → Analog Signals & Instrumentation**
+
+### Next Topic
+
+**Day 27 — Analog Signals & Scaling**
 
 ---
 
@@ -323,15 +387,19 @@ Day 23 / 365
 
 This repository contains:
 
-- Daily learning notes
-- Practical exercises
-- Engineering diagrams
-- Architecture documentation
-- Hands-on labs
-- Open-source SCADA projects
-- Case studies
-- Reference materials
-- Industrial automation best practices
+- 📘 Daily learning notes
+- 🧪 Practical exercises
+- 🏭 Industrial automation concepts
+- 📐 Engineering diagrams
+- 🖥️ SCADA architecture documentation
+- 🔌 Industrial communication examples
+- 🧠 PLC programming concepts
+- 🔐 ICS cybersecurity concepts
+- 🧪 Hands-on labs
+- 🚀 Open-source SCADA projects
+- 📚 Case studies
+- 📖 Reference materials
+- ⚙️ Engineering best practices
 
 ---
 
@@ -339,41 +407,122 @@ This repository contains:
 
 Over the coming weeks, this repository will include:
 
-- PLC Timers
-- PLC Counters
-- Analog Signals
+### PLC
+
+- Analog Inputs
+- Analog Outputs
+- Signal Scaling
+- Timers
+- Counters
+- Comparators
+- Math Instructions
 - PID Control
+- Function Blocks
+- Structured Text
+
+### SCADA
+
 - Ignition SCADA
-- OPC UA Labs
-- Modbus TCP Projects
-- Siemens TIA Portal Examples
-- FactoryTalk View
-- SCADA Dashboard Projects
-- Industrial Network Diagrams
-- Tank Level Simulator
+- HMI Development
+- Tags
+- Alarms
+- Historian
+- Trends
+- Dashboards
+- User Management
+
+### Industrial Communication
+
+- Modbus TCP
+- OPC UA
+- PROFINET
+- Ethernet/IP
+- MQTT
+
+### Cybersecurity
+
+- ISA/IEC 62443
+- NIST SP 800-82
+- OT Network Segmentation
+- Secure Remote Access
+- Security Zones & Conduits
 
 ---
 
 # 🎯 Why This Repository Exists
 
-Industrial Automation powers critical infrastructure worldwide, including manufacturing, energy, water treatment, transportation, and oil & gas.
+Industrial Automation powers critical infrastructure worldwide, including:
 
-This repository documents my transition from Software Development into SCADA Engineering through consistent learning, practical exercises, hands-on labs, and engineering projects.
+- Manufacturing
+- Energy
+- Water Treatment
+- Oil & Gas
+- Transportation
+- Utilities
+- Building Automation
 
-My objective isn't simply to complete 365 days—it's to build a portfolio that demonstrates practical skills in SCADA, PLC programming, Industrial Automation, Operational Technology, and ICS Cybersecurity.
+This repository documents my transition from Software Development into SCADA and Industrial Automation through consistent learning, practical exercises, hands-on labs, engineering projects, and open-source contributions.
+
+My objective isn't simply to complete 365 days.
+
+The real goal is to develop the ability to understand, design, troubleshoot, and build practical industrial control and SCADA systems.
 
 ---
 
 # 📅 Current Statistics
 
-- 📘 Lessons Completed: **23**
-- 🧪 Hands-on Exercises: **15**
-- 🏭 Industrial Concepts Covered: **23**
-- 📊 Architecture & Networking Topics: **10**
-- 🔐 Cybersecurity Topics: **7**
-- 💻 PLC Programming Lessons: **3**
-- 🏗️ Open Source Projects Planned: **9**
-- 🎯 Overall Progress: **6.3% (23/365)**
+| Category | Progress |
+|----------|----------|
+| 📘 Lessons Completed | **26** |
+| 🧪 Hands-on Exercises | **18+** |
+| 🏭 Industrial Topics | **26** |
+| 📊 Networking Topics | **7+** |
+| 🔐 Cybersecurity Topics | **7+** |
+| 💻 PLC Programming Lessons | **6** |
+| 🏗️ Open Source Projects Planned | **9** |
+| 🎯 Overall Progress | **7.1%** |
+
+---
+
+# 🏆 Milestones
+
+### ✅ First 10 Days
+
+SCADA fundamentals and industrial architecture.
+
+### ✅ First 20 Days
+
+SCADA → Networking → ICS Cybersecurity → HMI concepts.
+
+### 🔄 Day 26
+
+PLC programming fundamentals now include:
+
+```text
+Ladder Logic
+      ↓
+Logic Operations
+      ↓
+Latching
+      ↓
+Timers
+      ↓
+Counters
+      ↓
+Comparators
+      ↓
+Analog Signals
+```
+
+### 🎯 Day 50 Goal
+
+Build a stronger foundation in:
+
+- PLC programming
+- Industrial instrumentation
+- Industrial networking
+- SCADA concepts
+- Practical automation logic
 
 ---
 
@@ -403,9 +552,27 @@ If you're learning:
 - Operational Technology (OT)
 - ICS Cybersecurity
 
-consider giving this repository a ⭐, following the project, and sharing feedback or ideas.
+consider:
 
-Contributions, suggestions, and discussions are always welcome.
+⭐ Starring this repository
+
+👨‍💻 Following the journey
+
+💬 Sharing feedback
+
+🤝 Contributing ideas
+
+---
+
+# 📌 Learning in Public
+
+This repository is intentionally public.
+
+The goal is to document:
+
+> **What I learn → What I build → What I get wrong → What I improve**
+
+Every day is another step toward becoming a practical SCADA & Industrial Automation Engineer.
 
 ---
 
