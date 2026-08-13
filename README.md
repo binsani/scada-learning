@@ -3,9 +3,9 @@
 > **A public journey from Software Developer to SCADA & Industrial Automation Engineer.**
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/binsani/scada-learning)
-![Progress](https://img.shields.io/badge/Progress-26%2F365-blue)
+![Progress](https://img.shields.io/badge/Progress-31%2F365-blue)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-![Current Focus](https://img.shields.io/badge/Current%20Focus-PLC%20Analog%20Signals-orange)
+![Current Focus](https://img.shields.io/badge/Current%20Focus-PLC%20Sequence%20Control-orange)
 
 ---
 
@@ -77,6 +77,7 @@ Throughout this 365-day journey, I will:
 - DNP3
 - MQTT
 - Industrial Network Segmentation
+- Network Monitoring
 
 ---
 
@@ -104,7 +105,7 @@ Throughout this 365-day journey, I will:
 
 ---
 
-## 🔄 Phase 4 — PLC Programming
+## 🔄 Phase 4 — PLC Programming & Control Logic
 
 ### Completed
 
@@ -122,15 +123,28 @@ Throughout this 365-day journey, I will:
 - PLC Comparators
 - Conditional Logic
 - Hysteresis Concepts
-
-### Current Focus
-
 - Analog Signals
 - 4–20 mA
 - 0–10 V
 - Analog Input Modules
 - Signal Scaling
 - Engineering Units
+- Analog Output Modules
+- Analog Control
+- Control Valves
+- VFD Control Concepts
+- PLC Interlocks
+- PLC Permissives
+- PLC Sequence Control
+- PLC States & State Transitions
+
+### Current Focus
+
+- PLC Sequences
+- State-Based Control
+- Equipment Feedback
+- Fault Handling
+- Advanced Control Logic
 
 ### Coming Soon
 
@@ -138,12 +152,16 @@ Throughout this 365-day journey, I will:
 - Function Blocks
 - Structured Text
 - PID Control
-- PLC State Machines
 - Advanced Sequencing
+- PLC Diagnostics
+- Fault Handling
+- Equipment Control Strategies
 
 ---
 
 ## ⏳ Phase 5 — SCADA Software
+
+Planned platforms:
 
 - Ignition SCADA
 - Siemens WinCC
@@ -151,12 +169,24 @@ Throughout this 365-day journey, I will:
 - AVEVA InTouch
 - VTScada
 
+Topics will include:
+
+- SCADA Tags
+- HMI Screens
+- Alarms
+- Historian
+- Trends
+- Dashboards
+- User Management
+- Data Acquisition
+- PLC-SCADA Communication
+
 ---
 
 # 📚 Learning Progress
 
 | Day | Topic | Status |
-|------|-----------------------------------------------|--------|
+|-----|-------|--------|
 | 01 | Introduction to SCADA | ✅ |
 | 02 | PLC Fundamentals | ✅ |
 | 03 | RTU vs PLC | ✅ |
@@ -183,6 +213,11 @@ Throughout this 365-day journey, I will:
 | 24 | PLC Timers — TON, TOF & RTO | ✅ |
 | 25 | PLC Counters — CTU, CTD & Reset | ✅ |
 | 26 | PLC Comparators & Conditional Logic | ✅ |
+| 27 | Analog Signals — 4–20 mA & 0–10 V | ✅ |
+| 28 | Analog Inputs, Raw Values & Scaling | ✅ |
+| 29 | Analog Outputs & Variable Control | ✅ |
+| 30 | PLC Interlocks & Permissive Logic | ✅ |
+| 31 | PLC Sequences & State-Based Control | ✅ |
 
 ---
 
@@ -197,7 +232,7 @@ scada-learning/
 ├── Day-02/
 ├── Day-03/
 ├── ...
-├── Day-26/
+├── Day-31/
 │
 ├── Architecture/
 ├── Assets/
@@ -244,24 +279,34 @@ scada-learning/
 - PLC Counter Exercise
 - PLC Comparator Exercise
 - Tank Level Control Logic Exercise
+- Analog Signal Analysis
+- 4–20 mA Signal Scaling Exercise
+- 0–10 V Signal Scaling Exercise
+- Analog Input Exercise
+- Analog Output Exercise
+- PLC Interlock Exercise
+- PLC Permissive Logic Exercise
+- PLC Sequence Design Exercise
+- State-Based Control Exercise
 
 ---
 
 ## 🔬 Upcoming Labs
 
-- Analog Signal Simulation
-- 4–20 mA Signal Scaling
-- 0–10 V Signal Scaling
-- PLC Analog Input Exercise
+- PLC Fault Handling
+- PLC Diagnostic Logic
+- Equipment Feedback Simulation
+- Advanced Sequence Control
+- Math Instructions
+- Function Blocks
+- Structured Text
+- PID Control
 - Ignition SCADA Installation
 - OPC UA Lab
 - Modbus TCP Lab
-- PLC Timer Exercises
-- PLC Counter Exercises
+- SCADA Dashboard Development
 - Alarm Configuration
 - Historian Configuration
-- SCADA Dashboard Development
-- PID Control Lab
 
 ---
 
@@ -303,13 +348,20 @@ The following projects are planned as part of this learning journey.
 ## PLC & Automation
 
 - Ladder Logic
+- Contacts & Coils
 - Timers
 - Counters
 - Comparators
-- Analog Signals
+- Analog Inputs
+- Analog Outputs
 - 4–20 mA
 - 0–10 V
 - Signal Scaling
+- Engineering Units
+- Interlocks
+- Permissives
+- Sequence Control
+- State Machines
 - PID Control
 
 ## Software
@@ -338,20 +390,20 @@ The following projects are planned as part of this learning journey.
 # 📈 Progress Dashboard
 
 ```text
-██████████████████████████□□□□□□□□□□□□□□□□□□□□
+███████████████████████████████□□□□□□□□□□□□□□□□□□
 
-Day 26 / 365
+Day 31 / 365
 ```
 
-**Completed:** 26 Days
+**Completed:** 31 Days
 
-**Remaining:** 339 Days
+**Remaining:** 334 Days
 
-**Overall Progress:** 7.1%
+**Overall Progress:** 8.5%
 
 ### Current Focus
 
-> **PLC Analog Signals, 4–20 mA, 0–10 V & Signal Scaling**
+> **PLC Sequences, State-Based Control & Industrial Control Logic**
 
 ---
 
@@ -366,20 +418,26 @@ Day 26 / 365
         ↓
 🔄 PLC Programming
         ↓
-⏳ Industrial Instrumentation
+🔄 Industrial Instrumentation
         ↓
 ⏳ SCADA Software
         ↓
 ⏳ Industrial Projects
+        ↓
+⏳ Advanced ICS Engineering
 ```
 
 ### Current Stage
 
-**PLC Programming → Analog Signals & Instrumentation**
+**PLC Programming → Industrial Control Logic → Sequence & State-Based Control**
+
+### Current Topic
+
+**PLC Sequences & State-Based Control**
 
 ### Next Topic
 
-**Day 27 — Analog Signals & Scaling**
+**Day 32 — PLC Fault Handling & Diagnostics**
 
 ---
 
@@ -405,22 +463,27 @@ This repository contains:
 
 # 🚀 Coming Soon
 
-Over the coming weeks, this repository will include:
+## PLC
 
-### PLC
-
-- Analog Inputs
-- Analog Outputs
-- Signal Scaling
-- Timers
-- Counters
-- Comparators
+- Fault Handling
+- PLC Diagnostics
 - Math Instructions
-- PID Control
 - Function Blocks
 - Structured Text
+- Advanced Sequencing
+- PID Control
 
-### SCADA
+## Instrumentation
+
+- Analog Signals
+- 4–20 mA
+- 0–10 V
+- Transmitters
+- Signal Conditioning
+- Calibration
+- Process Variables
+
+## SCADA
 
 - Ignition SCADA
 - HMI Development
@@ -431,7 +494,7 @@ Over the coming weeks, this repository will include:
 - Dashboards
 - User Management
 
-### Industrial Communication
+## Industrial Communication
 
 - Modbus TCP
 - OPC UA
@@ -439,13 +502,14 @@ Over the coming weeks, this repository will include:
 - Ethernet/IP
 - MQTT
 
-### Cybersecurity
+## Cybersecurity
 
 - ISA/IEC 62443
 - NIST SP 800-82
 - OT Network Segmentation
 - Secure Remote Access
 - Security Zones & Conduits
+- OT Monitoring
 
 ---
 
@@ -465,7 +529,17 @@ This repository documents my transition from Software Development into SCADA and
 
 My objective isn't simply to complete 365 days.
 
-The real goal is to develop the ability to understand, design, troubleshoot, and build practical industrial control and SCADA systems.
+The real goal is to develop the ability to:
+
+- Understand industrial control systems
+- Read and design control logic
+- Understand PLC architecture
+- Understand industrial instrumentation
+- Work with industrial communication
+- Design SCADA architectures
+- Troubleshoot automation systems
+- Build practical industrial software
+- Understand OT/ICS cybersecurity
 
 ---
 
@@ -473,56 +547,126 @@ The real goal is to develop the ability to understand, design, troubleshoot, and
 
 | Category | Progress |
 |----------|----------|
-| 📘 Lessons Completed | **26** |
-| 🧪 Hands-on Exercises | **18+** |
-| 🏭 Industrial Topics | **26** |
+| 📘 Lessons Completed | **31** |
+| 🧪 Hands-on Exercises | **28+** |
+| 🏭 Industrial Topics | **31** |
 | 📊 Networking Topics | **7+** |
 | 🔐 Cybersecurity Topics | **7+** |
-| 💻 PLC Programming Lessons | **6** |
+| 💻 PLC Programming Lessons | **11+** |
+| 🎛️ Instrumentation Topics | **5+** |
 | 🏗️ Open Source Projects Planned | **9** |
-| 🎯 Overall Progress | **7.1%** |
+| 🎯 Overall Progress | **8.5%** |
 
 ---
 
 # 🏆 Milestones
 
-### ✅ First 10 Days
+## ✅ First 10 Days
 
 SCADA fundamentals and industrial architecture.
 
-### ✅ First 20 Days
+---
+
+## ✅ First 20 Days
 
 SCADA → Networking → ICS Cybersecurity → HMI concepts.
 
-### 🔄 Day 26
+---
 
-PLC programming fundamentals now include:
+## ✅ Day 26
+
+PLC programming fundamentals expanded into:
 
 ```text
 Ladder Logic
-      ↓
+     ↓
 Logic Operations
-      ↓
+     ↓
 Latching
-      ↓
+     ↓
 Timers
-      ↓
+     ↓
 Counters
-      ↓
+     ↓
 Comparators
-      ↓
-Analog Signals
 ```
 
-### 🎯 Day 50 Goal
+---
 
-Build a stronger foundation in:
+## ✅ Day 29
+
+PLC control expanded into analog instrumentation:
+
+```text
+Analog Input
+     ↓
+Raw Value
+     ↓
+Scaling
+     ↓
+Engineering Units
+     ↓
+PLC Logic
+     ↓
+Analog Output
+     ↓
+Actuator
+```
+
+---
+
+## ✅ Day 30
+
+Introduced:
+
+```text
+Permissives
+     +
+Interlocks
+     +
+Feedback
+     ↓
+Equipment Control
+```
+
+---
+
+## 🎯 Day 31
+
+Introduced sequence and state-based control:
+
+```text
+IDLE
+  ↓
+CHECK
+  ↓
+OPEN VALVE
+  ↓
+START PUMP
+  ↓
+FILL
+  ↓
+STOP PUMP
+  ↓
+CLOSE VALVE
+  ↓
+COMPLETE
+```
+
+---
+
+# 🎯 Day 50 Goal
+
+By Day 50, I aim to build a stronger foundation in:
 
 - PLC programming
 - Industrial instrumentation
 - Industrial networking
+- Control logic
 - SCADA concepts
-- Practical automation logic
+- Equipment control
+- Industrial communication
+- Practical automation engineering
 
 ---
 
@@ -572,7 +716,7 @@ The goal is to document:
 
 > **What I learn → What I build → What I get wrong → What I improve**
 
-Every day is another step toward becoming a practical SCADA & Industrial Automation Engineer.
+Every day is another step toward becoming a practical **SCADA & Industrial Automation Engineer**.
 
 ---
 
